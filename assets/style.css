@@ -1,0 +1,133 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+*{
+	/*border: 1px solid red;*/
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+
+header {
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding-bottom: 160px;
+}
+
+.logo, ul{
+	margin-top: 45px;
+}
+
+ul{
+	list-style-type: none;
+	display: flex;
+	float: right;
+	color: white;
+}
+
+li, h1, h2, .button{
+	text-transform: uppercase;
+}
+
+li{
+	margin-left: 42px;
+}
+
+h2, h1{
+	color: white;
+	text-align: center;
+}
+
+h2{
+	margin-top: 214px;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+h1{
+	font-size: 75px;
+	margin-top: 52px;
+}
+
+.button{
+	font-size: 18px;
+	font-weight: bold;
+	color: #494745;
+	background-color: #f2d048;
+	text-align: center;
+	margin: 60px auto 0 auto;
+	padding: 25px 0;
+	width: 240px;
+	border-radius: 3px;
+}
+
+h3{
+	text-transform: uppercase;
+	margin: 0 0 21px 0;
+	font-size: 40px;
+	text-align: center;
+}
+
+.under{
+	font-size: 16px;
+	color: #767676;
+	text-align: center;
+}
+
+.iconsDivParent{
+	display: flex;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.icons{
+	display: block;
+	margin: 0 auto;
+}
+
+.middleDiv{
+	margin: 0 75px;
+}
+
+h4{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 25px 0 0 0;
+}
+
+p{
+	color: #767676;
+}
+
+.services{
+	padding: 120px 0;
+}
+
+.ourPortfolio{
+	background-color: #f7f7f7;
+	padding: 120px 0 135px 0;
+}
+
+.images{
+	margin-top: 80px;
+}
+
+.middleImg{
+	margin: 0 25px;
+}
+
+.aboutUs{
+	padding: 80px 0 115px 0;
+}
+
+.footer{
+	text-align: center;
+}
